@@ -1,0 +1,26 @@
+normal merge
+
+1. git branch <branch>// game update 
+2. git branch // check branch
+3. git checkout <branch> // change branch
+4. git push <remote> <branch> // must be in the same branch to push
+5. git merge <branch> // combine branchs to what branch you in
+/*git clone <url> <new folder name>*\
+6. git pull <remote> <branch> // pull file to computer to update
+
+conflict merge
+
+1.git checkout -b <branch> // create and change branch	
+2.modify file then commit
+3.git checkout master 
+4.try to merge 
+5.it will have massage about conflict
+6.if editor have tool about conflict then choose what branch you want to merge in
+7.git commit -m "massage"
+
+conflict pull 
+
+when another have push new update to github 
+and you computer pull it back will cause conflict
+so just solve the conflict and commit then push back 
+like solve conflict merge
